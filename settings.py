@@ -27,11 +27,11 @@ TIME_ZONE = 'Asia/Jerusalem'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'he-IL'
+LANGUAGE_CODE = 'he-il'
 
 gettext = lambda s: s
 LANGUAGES = (
-    ('he-IL', gettext('Hebrew')),
+    ('he-il', gettext('Hebrew')),
     ('en-us', gettext('English')),
 )
 
