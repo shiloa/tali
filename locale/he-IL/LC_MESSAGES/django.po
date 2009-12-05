@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-05 17:02+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: settings.py:34
+msgid "Hebrew"
+msgstr ""
+
+#: settings.py:35
+msgid "English"
+msgstr ""
+
+#: templates/construction.tpl:5
+msgid "Tali Yarom - Under Construction"
+msgstr "טלי ירום - האתר בבנייה"
+
+#: templates/construction.tpl:68
+msgid "The Site is Under Construction..."
+msgstr "האתר נמצא בבנייה..."
+
+#: templates/construction.tpl:71
+msgid "See you soon!"
+msgstr "נתראה בקרוב!"
+
+#: templates/construction.tpl:77
+msgid ""
+"\n"
+"            5 Iben Gevirol Street  ||\n"
+"            Tel-Aviv, Israel  ||\n"
+"            Cell: 054-4252657  || \n"
+"            Fax: 03-6483516  ||\n"
+"            email: frameart@gmail.com\n"
+"          "
+msgstr ""
+"\n"
+"            5 Iben Gevirol Street  ||\n"
+"            Tel-Aviv, Israel  ||\n"
+"            Cell: 054-4252657  || \n"
+"            Fax: 03-6483516  ||\n"
+"            email: frameart@gmail.com\n"
+"          "
