@@ -27,12 +27,13 @@ TIME_ZONE = 'Asia/Jerusalem'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'he-il'
+LANGUAGE_CODE = 'he'
 
 gettext = lambda s: s
 LANGUAGES = (
     ('he-il', gettext('Hebrew')),
     ('en-us', gettext('English')),
+    ('de', gettext('Deutch')),
 )
 
 
@@ -75,6 +76,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
 )
 
 ROOT_URLCONF = 'tali.urls'

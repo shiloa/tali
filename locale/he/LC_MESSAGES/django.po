@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-05 17:02+0200\n"
+"POT-Creation-Date: 2009-12-06 12:20+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,11 +18,15 @@ msgstr ""
 
 #: settings.py:34
 msgid "Hebrew"
-msgstr ""
+msgstr "עברית"
 
 #: settings.py:35
 msgid "English"
-msgstr ""
+msgstr "אנגלית"
+
+#: settings.py:36
+msgid "Deutch"
+msgstr "גרמנית"
 
 #: templates/construction.tpl:5
 msgid "Tali Yarom - Under Construction"
@@ -37,10 +41,10 @@ msgid "See you soon!"
 msgstr "נתראה בקרוב!"
 
 #: templates/construction.tpl:77
+#, fuzzy
 msgid ""
 "\n"
-"            5 Iben Gevirol Street  ||\n"
-"            Tel-Aviv, Israel  ||\n"
+"            5 Iben Gevirol Street, Tel-Aviv, Israel  ||\n"
 "            Cell: 054-4252657  || \n"
 "            Fax: 03-6483516  ||\n"
 "            email: frameart@gmail.com\n"
@@ -53,3 +57,6 @@ msgstr ""
 "            Fax: 03-6483516  ||\n"
 "            email: frameart@gmail.com\n"
 "          "
+
+#~ msgid "Spanish"
+#~ msgstr "ספרדית"

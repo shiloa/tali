@@ -22,7 +22,7 @@
             }
             
             #text {
-              width: 350px;
+              width: 300px;
             }
             
             #one {
@@ -61,13 +61,13 @@
           {# <img src="http://media.frameart.co.il/images/banner-trans.png" border="none" width="300px"/> #}
           <img src="/static/images/tali-logo.png" border="none"/>
         </div>
-        <table id="text" cellpadding="0" cellspacing="0">
+        <table id="text" cellpadding="0" cellspacing="0" {% if LANGUAGE_BIDI %}dir="rtl"{% endif %}>
           <tr>
             <td>
-              <span id="one">
+              <span id="one" {% if LANGUAGE_BIDI %}style="float: right;"{% endif %}>
                 {% trans "The Site is Under Construction..." %}
               </span>
-              <span id="two">
+              <span id="two" {% if LANGUAGE_BIDI %}style="float: left;"{% endif %}>
                 {% trans "See you soon!" %}
               </span>
             </td>
