@@ -12,7 +12,7 @@ ADMINS = (
 MANAGERS = ADMINS
 
 DATABASE_ENGINE = 'sqlite3'     # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-DATABASE_NAME = 'talidb.sqlite' # Or path to database file if using sqlite3.
+DATABASE_NAME = os.path.join(DOC_ROOT, 'talidb.sqlite') # Or path to database file if using sqlite3.
 DATABASE_USER = ''              # Not used with sqlite3.
 DATABASE_PASSWORD = ''          # Not used with sqlite3.
 DATABASE_HOST = ''              # Set to empty string for localhost. Not used with sqlite3.
@@ -31,9 +31,8 @@ LANGUAGE_CODE = 'he'
 
 gettext = lambda s: s
 LANGUAGES = (
-    ('he-il', gettext('Hebrew')),
+    ('he', gettext('Hebrew')),
     ('en-us', gettext('English')),
-    ('de', gettext('Deutch')),
 )
 
 
@@ -42,6 +41,7 @@ SITE_ID = 1
 # If you set this to False, Django will make some optimizations so as not
 # to load the internationalization machinery.
 USE_I18N = True
+#USE_I18N = False
 
 # Absolute path to the directory that holds media.
 # Example: "/home/media/media.lawrence.com/"
@@ -91,6 +91,6 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.sites',
     'django.contrib.admin',
-    'sorl.thumbnail',
+    'tali.sorl.thumbnail',
     'tali.theapp',
 )
